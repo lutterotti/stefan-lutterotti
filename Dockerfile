@@ -3,7 +3,7 @@ WORKDIR '/app'
 COPY package.json .
 RUN npm install
 COPY ./ ./
-RUN ionic build --prod
+RUN npm run build
 
 FROM nginx
 EXPOSE 80
