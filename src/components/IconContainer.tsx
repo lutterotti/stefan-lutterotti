@@ -2,14 +2,7 @@ import React, { useState } from 'react';
 import { ReactComponent as LogoGithub } from '../assets/logo-github.svg';
 import { ReactComponent as LogoLinkedIn } from '../assets/logo-linkedin.svg';
 import { ReactComponent as LogoEmail } from '../assets/mail-outline.svg';
-import { Animate, NodeGroup } from 'react-move';
 import { Link } from 'react-router-dom';
-
-enum Icons {
-  GIT = 'git',
-  LINKED_IN = 'linked_in',
-  EMAIL = 'email'
-}
 
 export default function IconContainer () {
 
