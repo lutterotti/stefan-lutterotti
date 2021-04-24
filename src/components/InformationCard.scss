@@ -1,0 +1,109 @@
+.info-card {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #fdfdfd;
+  border-radius: 15px;
+  height: 255px;
+  width: 100%;
+  max-width: 600px;
+  margin-right: 100px;
+  padding: 20px;
+  box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.15);
+}
+
+.info-card__title {
+  color: #444444;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.info-card__sub-title {
+  color: #51DBBB;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 5px 0px 0px 15px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.info-card__quote {
+  font-style: italic;
+  color: #505050;
+}
+
+.info-card__quote-author {
+  text-align: end;
+  color: #505050;
+  margin-top: 7px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.icon-title {
+  color: #444;
+  font-size: 14px;
+  margin-left: 5px;
+  letter-spacing: 1pt;
+}
+
+.icon-title--hover {
+  font-size: 14px;
+  margin-left: 5px;
+  letter-spacing: 1pt;
+  color: #7E7193;
+}
+
+.svg {
+  height: 30px;
+  width: 30px;
+}
+
+#git,#email,#linked {
+  cursor: pointer;
+  fill: #444;
+  color: #444;
+  p {
+    color: #444;
+    transition: 0.5s all ease;
+  }
+  transition: 0.5s all ease;
+}
+
+#git:hover,#email:hover,#linked:hover {
+  cursor: pointer;
+  fill: #7E7193;
+  color: #7E7193;
+  p {
+    color: #7E7193;
+    transition: 0.5s all ease;
+  }
+  transition: 0.5s all ease;
+}
