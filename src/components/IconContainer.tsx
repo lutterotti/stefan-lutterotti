@@ -10,19 +10,19 @@ export default function IconContainer () {
     <div className="icon-container">
       <Link to={{ pathname: "https://github.com/lutterotti" }} target="_blank">
         <div className="icon" id="git">
-          <svg className="svg"><LogoGithub width="30" height="30"></LogoGithub></svg>
+          <svg className="svg"><LogoGithub></LogoGithub></svg>
           <p className="icon-title">lutterotti</p>
         </div>
         </Link>
         <Link to={{ pathname: "https://www.linkedin.com/in/stefani-lutterotti" }} target="_blank">
           <div className="icon" id="linked">
-            <svg className="svg"><LogoLinkedIn width="30" height="30"></LogoLinkedIn></svg>
+            <svg className="svg"><LogoLinkedIn></LogoLinkedIn></svg>
             <p className="icon-title">Stefani Lutterotti</p>
           </div>
         </Link>
         <Link to={{ pathname: "mailto:stefani@lutterotti.com" }} target="_blank">
           <div className="icon" id="email">
-            <svg className="svg"><LogoEmail width="30" height="30"></LogoEmail></svg>
+            <svg className="svg"><LogoEmail></LogoEmail></svg>
             <p className="icon-title">stefani@lutterotti.com</p>
           </div>
         </Link>

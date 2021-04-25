@@ -8,7 +8,6 @@
   border-radius: 15px;
   height: 255px;
   width: 100%;
-  max-width: 600px;
   margin-right: 100px;
   padding: 20px;
   box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.15);
@@ -18,7 +17,7 @@
   color: #444444;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 400;
 }
 
@@ -26,7 +25,7 @@
   color: #51DBBB;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 400;
   padding: 5px 0px 0px 15px;
 }
@@ -76,12 +75,6 @@
   cursor: pointer;
 }
 
-.icon-title--hover {
-  font-size: 14px;
-  margin-left: 5px;
-  letter-spacing: 1pt;
-  color: #7E7193;
-}
 
 .svg {
   height: 30px;
@@ -108,4 +101,110 @@
     transition: 0.5s all ease;
   }
   transition: 0.5s all ease;
+}
+
+
+@media screen and (max-width: 1051px) {
+  .info-card {
+    justify-content: space-between;
+  }
+
+  .info-card__title {
+    font-size: 26px;
+  }
+
+  .info-card__sub-title {
+    font-size: 22px;
+  }
+
+  .quote-container {
+    font-size: 15px;
+  }
+
+  .icon-title {
+    font-size: 12px;
+  }
+
+  .svg {
+    height: 25px;
+    width: 25px;
+  }
+
+  .icon {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .info-card {
+    max-width: 650px;
+    margin-right: 0px;
+    height: 190px;
+  }
+
+  .info-card__title {
+    font-size: 24px;
+  }
+
+  .info-card__sub-title {
+    font-size: 19px;
+  }
+
+  .quote-container {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon-title {
+    display: none;
+  }
+
+  .info-card__title {
+    font-size: 22px;
+  }
+
+  .info-card__sub-title {
+    font-size: 17px;
+  }
+
+  .quote-container {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .info-card {
+    height: 180px !important;
+  }
+
+  .info-card__title {
+    font-size: 17px;
+  }
+
+  .info-card__sub-title {
+    font-size: 13px;
+  }
+
+  .quote-container {
+    margin-top: 15px;
+    font-size: 11px;
+  }
+
+  .info-card {
+    max-width: initial;
+    padding: 10px;
+    margin-right: 0px;
+    height: 190px;
+  }
+
+  .svg {
+    height: 23px;
+    width: 23px;
+  }
+
+  .icon {
+    margin-right: 25px;
+  }
 }
