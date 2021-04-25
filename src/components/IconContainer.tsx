@@ -20,10 +20,10 @@ export default function IconContainer () {
             <p className="icon-title">Stefani Lutterotti</p>
           </div>
         </Link>
-        <Link to={{ pathname: "mailto:hey@lutterotti.com" }} target="_blank">
+        <Link to={{ pathname: "mailto:stefani@lutterotti.com" }} target="_blank">
           <div className="icon" id="email">
             <svg className="svg"><LogoEmail width="30" height="30"></LogoEmail></svg>
-            <p className="icon-title">hey@lutterotti.com</p>
+            <p className="icon-title">stefani@lutterotti.com</p>
           </div>
         </Link>
     </div>

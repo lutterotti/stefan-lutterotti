@@ -11,6 +11,7 @@
 
 .home-content {
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   padding: 50px;
@@ -42,14 +43,27 @@
   }
 }
 
+.footer-text {
+  color: rgb(168, 168, 168);
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  letter-spacing: .5pt;
+
+}
+
 h6 {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
+  cursor: default;
 }
 
 p {
   margin-top: 0px;
   margin-bottom: 0px;
+  cursor: default;
 }
 
 a:link {
