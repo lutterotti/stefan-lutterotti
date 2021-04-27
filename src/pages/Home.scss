@@ -16,6 +16,43 @@
   align-items: center;
   padding: 50px;
   width: 100%;
+  height: 100%;
+}
+
+%nav-text {
+  top: 15px;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1pt;
+  font-family: 'Raleway', sans-serif;
+  color: #444;
+  text-transform: uppercase;
+  position: absolute;
+  transition: all 0.3s ease;
+
+  p {
+    cursor: pointer !important;
+  }
+}
+
+%nav-text:hover {
+  color: #7E7193;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navigate-text {
+  &--project {
+    @extend %nav-text;
+    left: 20px;
+  }
+
+  &--home {
+    @extend %nav-text;
+    right: 20px;
+  }
+
 }
 
 .wave-content {
