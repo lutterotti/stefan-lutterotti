@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { ReactComponent as LogoGithub } from '../assets/logo-github.svg';
 import { ReactComponent as LogoLinkedIn } from '../assets/logo-linkedin.svg';
-import { ReactComponent as LogoEmail } from '../assets/mail-outline.svg';
 import { Link } from 'react-router-dom';
+import { ReactComponent as LogoEmail } from '../assets/mail-outline.svg';
 
 export default function IconContainer () {
   return (
