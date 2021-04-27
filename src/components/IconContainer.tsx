@@ -5,7 +5,6 @@ import { ReactComponent as LogoEmail } from '../assets/mail-outline.svg';
 import { Link } from 'react-router-dom';
 
 export default function IconContainer () {
-
   return (
     <div className="icon-container">
       <Link to={{ pathname: "https://github.com/lutterotti" }} target="_blank">
