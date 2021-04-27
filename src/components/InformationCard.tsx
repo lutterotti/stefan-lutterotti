@@ -21,7 +21,7 @@ const InformationCard: React.FC<ContainerProps> = () => {
     const interval = setInterval(() => {
       let updated_index = current_index < quotes.length - 1 ? current_index + 1 : 0;
       updateIndex(updated_index);
-    }, 6000)
+    }, 6500)
 
     return () => {
         clearInterval(interval);
