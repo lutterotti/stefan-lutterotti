@@ -8,7 +8,7 @@ import { useCallback } from 'react';
 
 const Home: React.FC = () => {
   const history = useHistory();
-  const handleOnClick = useCallback(() => history.push('/projects'), [history]);
+  const handleOnClick = useCallback(() => history.push('/projects'), []);
   return (
     <IonPage>
       <IonContent fullscreen>

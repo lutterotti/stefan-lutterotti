@@ -13,7 +13,7 @@ export interface Quote {
 
 const PersonalProjects: React.FC<ContainerProps> = () => {
   const history = useHistory();
-  const handleOnClick = useCallback(() => history.push('/'), [history]);
+  const handleOnClick = useCallback(() => history.push('/home'), [history]);
   return (
     <IonPage>
       <IonContent fullscreen>
