@@ -1,10 +1,14 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, useIonViewDidEnter, useIonViewWillEnter } from '@ionic/react';
-import InformationCard from '../components/InformationCard';
-import PhotoSpotlight from '../components/PhotoSpotlight';
+import InformationCard from '../components/home/InformationCard';
+import PhotoSpotlight from '../components/home/PhotoSpotlight';
 import Wave from 'react-wavify'
+import { useHistory } from 'react-router-dom';
 import './Home.scss';
+import { useCallback } from 'react';
 
 const Home: React.FC = () => {
+  const history = useHistory();
+  const handleOnClick = useCallback(() => history.push('/projects'), [history]);
   return (
     <IonPage>
       <IonContent fullscreen>
@@ -12,6 +16,7 @@ const Home: React.FC = () => {
           <div className="home-content">
             <InformationCard></InformationCard>
             <PhotoSpotlight></PhotoSpotlight>
+            <div className="navigate-text--home" onClick={handleOnClick}><p>Projects</p></div>
           </div>
           <p className="footer-text">Made in ReactJS | Hosted on AWS</p>
           <div className="wave-content">
