@@ -5,12 +5,11 @@ import { useEffect, useState } from 'react';
 interface ContainerProps {}
 
 const InformationCard: React.FC<ContainerProps> = () => {
-  let [current_index, updateIndex] = useState(0);
+  const [current_index, updateIndex] = useState(0);
   const quotes: Quote[] = [
     {text: `K-I-S-S, keep it simple stupid. Great advice, hurts my feelings every time.`, author: `Dwight Schrute`},
     {text: `An office is a place where dreams come true.`, author: `Michael Scott`},
     {text: `Whenever I'm about to do something, I think, 'Would an idiot do that?' and if they would, I do not do that thing.`, author: `Dwight Schrute`},
-    {text: `An office is a place where dreams come true.`, author: `Michael Scott`},
     {text: `Why waste time say lot word when few word do trick?`, author: `Kevin Malone`},
     {text: `You guys I'm like really smart now. You don't even know. You could ask me, Kelly what's the biggest company in the world? And I'd be like, 'blah blah blah, blah blah blah blah blah blah.' Giving you the exact right answer.`, author: `Kelly Kapoor`},
     {text: `ACTUALLY`, author: `Oscar Martinez`},
