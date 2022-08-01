@@ -1,6 +1,6 @@
 import { IonLabel, IonSegment, IonSegmentButton } from '@ionic/react';
 import './HomePageNavigation.scss';
-interface ContainerProps {}
+interface ContainerProps { }
 
 export interface Quote {
   text?: string;
@@ -14,9 +14,9 @@ const HomePageNavigation: React.FC<ContainerProps> = () => {
         <IonSegmentButton value="home">
           <IonLabel>Home</IonLabel>
         </IonSegmentButton>
-        <IonSegmentButton value="projects">
+        {/* <IonSegmentButton value="projects">
           <IonLabel>Projects</IonLabel>
-        </IonSegmentButton>
+        </IonSegmentButton> */}
       </IonSegment>
     </div>
   );
