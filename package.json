@@ -72,5 +72,8 @@
     "@ionic/lab": "3.2.10",
     "@types/react-redux": "^7.1.16"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "engines": {
+    "node": "16.20.2"
+  }
 }
