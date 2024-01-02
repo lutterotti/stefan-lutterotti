@@ -13,7 +13,7 @@ export default function IconContainer() {
           <p className="icon-title">lutterotti</p>
         </div>
       </Link>
-      <Link to={{ pathname: "https://www.linkedin.com/in/stefani-lutterotti" }} target="_blank">
+      <Link to={{ pathname: "https://www.linkedin.com/in/stefan-lutterotti" }} target="_blank">
         <div className="icon" id="linked">
           <svg className="svg"><LogoLinkedIn></LogoLinkedIn></svg>
           <p className="icon-title">Stefan Lutterotti</p>
